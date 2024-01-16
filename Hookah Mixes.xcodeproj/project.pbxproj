@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD10820C29E291B70099C9D0 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD10820B29E291B70099C9D0 /* AccountView.swift */; };
+		DD10820E29E2979C0099C9D0 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD10820D29E2979C0099C9D0 /* FilterView.swift */; };
+		DD1724FA29E573E600CF4FAA /* CollectionCellServises.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1724F929E573E600CF4FAA /* CollectionCellServises.swift */; };
+		DD1724FC29E574A900CF4FAA /* AdviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1724FB29E574A900CF4FAA /* AdviceViewModel.swift */; };
+		DD1D495729DC27F3006364F0 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1D495629DC27F3006364F0 /* LaunchScreen.swift */; };
+		DD1D495929DC32AF006364F0 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1D495829DC32AF006364F0 /* CollectionViewCell.swift */; };
+		DD21D0B429DECB07001F1ED7 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD21D0B329DECB07001F1ED7 /* CustomTabBar.swift */; };
+		DD3D855629E42FF400462D21 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD3D855529E42FF400462D21 /* GoogleService-Info.plist */; };
+		DD3D855B29E4335E00462D21 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DD3D855A29E4335E00462D21 /* FirebaseAuth */; };
+		DD3D855D29E4335E00462D21 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = DD3D855C29E4335E00462D21 /* FirebaseDatabase */; };
+		DD3D855F29E4335E00462D21 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DD3D855E29E4335E00462D21 /* FirebaseDatabaseSwift */; };
+		DD3D856129E4335E00462D21 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DD3D856029E4335E00462D21 /* FirebaseFirestore */; };
+		DD3D856329E4335E00462D21 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DD3D856229E4335E00462D21 /* FirebaseFirestoreSwift */; };
+		DD3D856529E4335E00462D21 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = DD3D856429E4335E00462D21 /* FirebaseStorage */; };
+		DD3D856829E43BAE00462D21 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DD3D856729E43BAE00462D21 /* Kingfisher */; };
+		DD3D856D29E43C9100462D21 /* CollectionCellInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3D856C29E43C9100462D21 /* CollectionCellInfo.swift */; };
+		DD4B618E29DD7916008BEB60 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4B618D29DD7916008BEB60 /* NewsView.swift */; };
+		DD50F2C429E1747E00B68EA2 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD50F2C329E1747E00B68EA2 /* RegistrationView.swift */; };
+		DD55404B29E807A000D6185D /* HookahViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD55404A29E807A000D6185D /* HookahViewModel.swift */; };
+		DD55404D29E8096100D6185D /* TobaccoMixesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD55404C29E8096100D6185D /* TobaccoMixesViewModel.swift */; };
+		DD55405129E80A8500D6185D /* CollectionViewMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD55405029E80A8500D6185D /* CollectionViewMenuCell.swift */; };
+		DD55405329E80F3000D6185D /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD55405229E80F3000D6185D /* MainViewModel.swift */; };
+		DD55405529ED454800D6185D /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD55405429ED454800D6185D /* AlertView.swift */; };
+		DD55405729EEA28C00D6185D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD55405629EEA28C00D6185D /* User.swift */; };
+		DD55405929EEA2DA00D6185D /* UserServise.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD55405829EEA2DA00D6185D /* UserServise.swift */; };
+		DD55405B29EEA30D00D6185D /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD55405A29EEA30D00D6185D /* AuthViewModel.swift */; };
+		DD55406029F2A07E00D6185D /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD55405F29F2A07E00D6185D /* AccountViewModel.swift */; };
+		DD55406229F7FD1D00D6185D /* RaitingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD55406129F7FD1D00D6185D /* RaitingView.swift */; };
+		DD9BA7CB2A13F0AB0097A925 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = DD9BA7CA2A13F0AB0097A925 /* GoogleSignIn */; };
+		DD9BA7CD2A13F0AB0097A925 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DD9BA7CC2A13F0AB0097A925 /* GoogleSignInSwift */; };
+		DDCDFFD729D0BA8C004AE32B /* Hookah_MixesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCDFFD629D0BA8C004AE32B /* Hookah_MixesApp.swift */; };
+		DDCDFFD929D0BA8C004AE32B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCDFFD829D0BA8C004AE32B /* ContentView.swift */; };
+		DDCDFFDB29D0BA8D004AE32B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDCDFFDA29D0BA8D004AE32B /* Assets.xcassets */; };
+		DDCDFFDE29D0BA8D004AE32B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDCDFFDD29D0BA8D004AE32B /* Preview Assets.xcassets */; };
+		DDED026C29FAA866007B7859 /* FilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED026B29FAA866007B7859 /* FilterViewModel.swift */; };
+		DDF13F4B29DAD50D00833BE7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF13F4A29DAD50D00833BE7 /* MainView.swift */; };
+		DDF13F5929DAD5BB00833BE7 /* TobaccoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF13F5829DAD5BB00833BE7 /* TobaccoView.swift */; };
+		DDF13F5B29DAD5CE00833BE7 /* HookahView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF13F5A29DAD5CE00833BE7 /* HookahView.swift */; };
+		DDF13F5D29DAD5E400833BE7 /* AdviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF13F5C29DAD5E400833BE7 /* AdviceView.swift */; };
+		DDF13F5F29DAD60B00833BE7 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF13F5E29DAD60B00833BE7 /* SignInView.swift */; };
+		DDF13F6229DAFF7100833BE7 /* mirza.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDF13F6129DAFF7100833BE7 /* mirza.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD10820B29E291B70099C9D0 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		DD10820D29E2979C0099C9D0 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		DD1724F929E573E600CF4FAA /* CollectionCellServises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCellServises.swift; sourceTree = "<group>"; };
+		DD1724FB29E574A900CF4FAA /* AdviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceViewModel.swift; sourceTree = "<group>"; };
+		DD1D495629DC27F3006364F0 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		DD1D495829DC32AF006364F0 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		DD21D0B329DECB07001F1ED7 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		DD3D855529E42FF400462D21 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DD3D856C29E43C9100462D21 /* CollectionCellInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCellInfo.swift; sourceTree = "<group>"; };
+		DD4B618D29DD7916008BEB60 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		DD50F2C329E1747E00B68EA2 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		DD55404A29E807A000D6185D /* HookahViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HookahViewModel.swift; sourceTree = "<group>"; };
+		DD55404C29E8096100D6185D /* TobaccoMixesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TobaccoMixesViewModel.swift; sourceTree = "<group>"; };
+		DD55405029E80A8500D6185D /* CollectionViewMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewMenuCell.swift; sourceTree = "<group>"; };
+		DD55405229E80F3000D6185D /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		DD55405429ED454800D6185D /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		DD55405629EEA28C00D6185D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DD55405829EEA2DA00D6185D /* UserServise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServise.swift; sourceTree = "<group>"; };
+		DD55405A29EEA30D00D6185D /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		DD55405F29F2A07E00D6185D /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		DD55406129F7FD1D00D6185D /* RaitingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaitingView.swift; sourceTree = "<group>"; };
+		DDCDFFD329D0BA8C004AE32B /* Hookah Mixes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hookah Mixes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCDFFD629D0BA8C004AE32B /* Hookah_MixesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hookah_MixesApp.swift; sourceTree = "<group>"; };
+		DDCDFFD829D0BA8C004AE32B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DDCDFFDA29D0BA8D004AE32B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDCDFFDD29D0BA8D004AE32B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDED026B29FAA866007B7859 /* FilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewModel.swift; sourceTree = "<group>"; };
+		DDF13F4A29DAD50D00833BE7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DDF13F5829DAD5BB00833BE7 /* TobaccoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TobaccoView.swift; sourceTree = "<group>"; };
+		DDF13F5A29DAD5CE00833BE7 /* HookahView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HookahView.swift; sourceTree = "<group>"; };
+		DDF13F5C29DAD5E400833BE7 /* AdviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceView.swift; sourceTree = "<group>"; };
+		DDF13F5E29DAD60B00833BE7 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		DDF13F6129DAFF7100833BE7 /* mirza.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = mirza.ttf; sourceTree = "<group>"; };
+		DDF13F6329DAFFAC00833BE7 /* Hookah-Mixes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Hookah-Mixes-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDCDFFD029D0BA8C004AE32B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9BA7CD2A13F0AB0097A925 /* GoogleSignInSwift in Frameworks */,
+				DD3D856329E4335E00462D21 /* FirebaseFirestoreSwift in Frameworks */,
+				DD9BA7CB2A13F0AB0097A925 /* GoogleSignIn in Frameworks */,
+				DD3D855F29E4335E00462D21 /* FirebaseDatabaseSwift in Frameworks */,
+				DD3D856829E43BAE00462D21 /* Kingfisher in Frameworks */,
+				DD3D856129E4335E00462D21 /* FirebaseFirestore in Frameworks */,
+				DD3D855D29E4335E00462D21 /* FirebaseDatabase in Frameworks */,
+				DD3D855B29E4335E00462D21 /* FirebaseAuth in Frameworks */,
+				DD3D856529E4335E00462D21 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD1724F829E573C800CF4FAA /* Servise */ = {
+			isa = PBXGroup;
+			children = (
+				DD1724F929E573E600CF4FAA /* CollectionCellServises.swift */,
+				DD55405829EEA2DA00D6185D /* UserServise.swift */,
+			);
+			path = Servise;
+			sourceTree = "<group>";
+		};
+		DD1D495529DC27DA006364F0 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DD1D495629DC27F3006364F0 /* LaunchScreen.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		DD3D856929E43C5600462D21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD3D856C29E43C9100462D21 /* CollectionCellInfo.swift */,
+				DD55405629EEA28C00D6185D /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DDCDFFCA29D0BA8C004AE32B = {
+			isa = PBXGroup;
+			children = (
+				DDCDFFD529D0BA8C004AE32B /* Hookah Mixes */,
+				DDCDFFD429D0BA8C004AE32B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDCDFFD429D0BA8C004AE32B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDCDFFD329D0BA8C004AE32B /* Hookah Mixes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDCDFFD529D0BA8C004AE32B /* Hookah Mixes */ = {
+			isa = PBXGroup;
+			children = (
+				DDF13F6329DAFFAC00833BE7 /* Hookah-Mixes-Info.plist */,
+				DD3D856929E43C5600462D21 /* Model */,
+				DD1724F829E573C800CF4FAA /* Servise */,
+				DDF13F4429DAD4BE00833BE7 /* Core */,
+				DD1D495529DC27DA006364F0 /* LaunchScreen */,
+				DDF13F4F29DAD55E00833BE7 /* Account */,
+				DDF13F4E29DAD54600833BE7 /* Advice */,
+				DDF13F4D29DAD53800833BE7 /* Hookah */,
+				DDF13F4C29DAD51300833BE7 /* Tobacco */,
+				DDF13F4129DAD49200833BE7 /* MainMenu */,
+				DDCDFFD629D0BA8C004AE32B /* Hookah_MixesApp.swift */,
+				DDCDFFD829D0BA8C004AE32B /* ContentView.swift */,
+				DD3D855529E42FF400462D21 /* GoogleService-Info.plist */,
+				DDCDFFDA29D0BA8D004AE32B /* Assets.xcassets */,
+				DDCDFFDC29D0BA8D004AE32B /* Preview Content */,
+			);
+			path = "Hookah Mixes";
+			sourceTree = "<group>";
+		};
+		DDCDFFDC29D0BA8D004AE32B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DDCDFFDD29D0BA8D004AE32B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DDF13F4129DAD49200833BE7 /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				DDF13F4329DAD4A600833BE7 /* ViewModel */,
+				DDF13F4229DAD49F00833BE7 /* View */,
+			);
+			path = MainMenu;
+			sourceTree = "<group>";
+		};
+		DDF13F4229DAD49F00833BE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDF13F4A29DAD50D00833BE7 /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DDF13F4329DAD4A600833BE7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DD55405229E80F3000D6185D /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DDF13F4429DAD4BE00833BE7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DDF13F6029DAFF1300833BE7 /* Font */,
+				DDF13F4529DAD4C600833BE7 /* View */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DDF13F4529DAD4C600833BE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD1D495829DC32AF006364F0 /* CollectionViewCell.swift */,
+				DD4B618D29DD7916008BEB60 /* NewsView.swift */,
+				DD21D0B329DECB07001F1ED7 /* CustomTabBar.swift */,
+				DD55405029E80A8500D6185D /* CollectionViewMenuCell.swift */,
+				DD55405429ED454800D6185D /* AlertView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DDF13F4C29DAD51300833BE7 /* Tobacco */ = {
+			isa = PBXGroup;
+			children = (
+				DDF13F5129DAD57200833BE7 /* ViewModel */,
+				DDF13F5029DAD56C00833BE7 /* View */,
+			);
+			path = Tobacco;
+			sourceTree = "<group>";
+		};
+		DDF13F4D29DAD53800833BE7 /* Hookah */ = {
+			isa = PBXGroup;
+			children = (
+				DDF13F5329DAD57D00833BE7 /* ViewModel */,
+				DDF13F5229DAD57900833BE7 /* View */,
+			);
+			path = Hookah;
+			sourceTree = "<group>";
+		};
+		DDF13F4E29DAD54600833BE7 /* Advice */ = {
+			isa = PBXGroup;
+			children = (
+				DDF13F5529DAD58B00833BE7 /* ViewModel */,
+				DDF13F5429DAD58500833BE7 /* View */,
+			);
+			path = Advice;
+			sourceTree = "<group>";
+		};
+		DDF13F4F29DAD55E00833BE7 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				DDF13F5729DAD59800833BE7 /* ViewModel */,
+				DDF13F5629DAD59300833BE7 /* View */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		DDF13F5029DAD56C00833BE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD10820D29E2979C0099C9D0 /* FilterView.swift */,
+				DDF13F5829DAD5BB00833BE7 /* TobaccoView.swift */,
+				DD55406129F7FD1D00D6185D /* RaitingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DDF13F5129DAD57200833BE7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DDED026B29FAA866007B7859 /* FilterViewModel.swift */,
+				DD55404C29E8096100D6185D /* TobaccoMixesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DDF13F5229DAD57900833BE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDF13F5A29DAD5CE00833BE7 /* HookahView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DDF13F5329DAD57D00833BE7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DD55404A29E807A000D6185D /* HookahViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DDF13F5429DAD58500833BE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDF13F5C29DAD5E400833BE7 /* AdviceView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DDF13F5529DAD58B00833BE7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DD1724FB29E574A900CF4FAA /* AdviceViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DDF13F5629DAD59300833BE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDF13F5E29DAD60B00833BE7 /* SignInView.swift */,
+				DD50F2C329E1747E00B68EA2 /* RegistrationView.swift */,
+				DD10820B29E291B70099C9D0 /* AccountView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DDF13F5729DAD59800833BE7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DD55405A29EEA30D00D6185D /* AuthViewModel.swift */,
+				DD55405F29F2A07E00D6185D /* AccountViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DDF13F6029DAFF1300833BE7 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				DDF13F6129DAFF7100833BE7 /* mirza.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDCDFFD229D0BA8C004AE32B /* Hookah Mixes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDCDFFE129D0BA8D004AE32B /* Build configuration list for PBXNativeTarget "Hookah Mixes" */;
+			buildPhases = (
+				DDCDFFCF29D0BA8C004AE32B /* Sources */,
+				DDCDFFD029D0BA8C004AE32B /* Frameworks */,
+				DDCDFFD129D0BA8C004AE32B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hookah Mixes";
+			packageProductDependencies = (
+				DD3D855A29E4335E00462D21 /* FirebaseAuth */,
+				DD3D855C29E4335E00462D21 /* FirebaseDatabase */,
+				DD3D855E29E4335E00462D21 /* FirebaseDatabaseSwift */,
+				DD3D856029E4335E00462D21 /* FirebaseFirestore */,
+				DD3D856229E4335E00462D21 /* FirebaseFirestoreSwift */,
+				DD3D856429E4335E00462D21 /* FirebaseStorage */,
+				DD3D856729E43BAE00462D21 /* Kingfisher */,
+				DD9BA7CA2A13F0AB0097A925 /* GoogleSignIn */,
+				DD9BA7CC2A13F0AB0097A925 /* GoogleSignInSwift */,
+			);
+			productName = "Hookah Mixes";
+			productReference = DDCDFFD329D0BA8C004AE32B /* Hookah Mixes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDCDFFCB29D0BA8C004AE32B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					DDCDFFD229D0BA8C004AE32B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = DDCDFFCE29D0BA8C004AE32B /* Build configuration list for PBXProject "Hookah Mixes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDCDFFCA29D0BA8C004AE32B;
+			packageReferences = (
+				DD3D855929E4335E00462D21 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				DD3D856629E43BAE00462D21 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				DD9BA7C92A13F0AB0097A925 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = DDCDFFD429D0BA8C004AE32B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDCDFFD229D0BA8C004AE32B /* Hookah Mixes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDCDFFD129D0BA8C004AE32B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCDFFDE29D0BA8D004AE32B /* Preview Assets.xcassets in Resources */,
+				DD3D855629E42FF400462D21 /* GoogleService-Info.plist in Resources */,
+				DDCDFFDB29D0BA8D004AE32B /* Assets.xcassets in Resources */,
+				DDF13F6229DAFF7100833BE7 /* mirza.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDCDFFCF29D0BA8C004AE32B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD10820E29E2979C0099C9D0 /* FilterView.swift in Sources */,
+				DD1724FC29E574A900CF4FAA /* AdviceViewModel.swift in Sources */,
+				DD1D495929DC32AF006364F0 /* CollectionViewCell.swift in Sources */,
+				DD55405529ED454800D6185D /* AlertView.swift in Sources */,
+				DD55405929EEA2DA00D6185D /* UserServise.swift in Sources */,
+				DD4B618E29DD7916008BEB60 /* NewsView.swift in Sources */,
+				DDCDFFD929D0BA8C004AE32B /* ContentView.swift in Sources */,
+				DD50F2C429E1747E00B68EA2 /* RegistrationView.swift in Sources */,
+				DDF13F5929DAD5BB00833BE7 /* TobaccoView.swift in Sources */,
+				DD10820C29E291B70099C9D0 /* AccountView.swift in Sources */,
+				DD1724FA29E573E600CF4FAA /* CollectionCellServises.swift in Sources */,
+				DD21D0B429DECB07001F1ED7 /* CustomTabBar.swift in Sources */,
+				DD3D856D29E43C9100462D21 /* CollectionCellInfo.swift in Sources */,
+				DD1D495729DC27F3006364F0 /* LaunchScreen.swift in Sources */,
+				DDF13F4B29DAD50D00833BE7 /* MainView.swift in Sources */,
+				DDCDFFD729D0BA8C004AE32B /* Hookah_MixesApp.swift in Sources */,
+				DD55405329E80F3000D6185D /* MainViewModel.swift in Sources */,
+				DDF13F5F29DAD60B00833BE7 /* SignInView.swift in Sources */,
+				DDF13F5B29DAD5CE00833BE7 /* HookahView.swift in Sources */,
+				DD55406229F7FD1D00D6185D /* RaitingView.swift in Sources */,
+				DD55404B29E807A000D6185D /* HookahViewModel.swift in Sources */,
+				DDED026C29FAA866007B7859 /* FilterViewModel.swift in Sources */,
+				DD55405B29EEA30D00D6185D /* AuthViewModel.swift in Sources */,
+				DD55404D29E8096100D6185D /* TobaccoMixesViewModel.swift in Sources */,
+				DDF13F5D29DAD5E400833BE7 /* AdviceView.swift in Sources */,
+				DD55405129E80A8500D6185D /* CollectionViewMenuCell.swift in Sources */,
+				DD55406029F2A07E00D6185D /* AccountViewModel.swift in Sources */,
+				DD55405729EEA28C00D6185D /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DDCDFFDF29D0BA8D004AE32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDCDFFE029D0BA8D004AE32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDCDFFE229D0BA8D004AE32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hookah Mixes/Preview Content\"";
+				DEVELOPMENT_TEAM = 7SJ46G89S2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hookah-Mixes-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kosharny.Hookah-Mixes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDCDFFE329D0BA8D004AE32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hookah Mixes/Preview Content\"";
+				DEVELOPMENT_TEAM = 7SJ46G89S2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hookah-Mixes-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kosharny.Hookah-Mixes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDCDFFCE29D0BA8C004AE32B /* Build configuration list for PBXProject "Hookah Mixes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCDFFDF29D0BA8D004AE32B /* Debug */,
+				DDCDFFE029D0BA8D004AE32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDCDFFE129D0BA8D004AE32B /* Build configuration list for PBXNativeTarget "Hookah Mixes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCDFFE229D0BA8D004AE32B /* Debug */,
+				DDCDFFE329D0BA8D004AE32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DD3D855929E4335E00462D21 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		DD3D856629E43BAE00462D21 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		DD9BA7C92A13F0AB0097A925 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DD3D855A29E4335E00462D21 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD3D855929E4335E00462D21 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		DD3D855C29E4335E00462D21 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD3D855929E4335E00462D21 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		DD3D855E29E4335E00462D21 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD3D855929E4335E00462D21 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		DD3D856029E4335E00462D21 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD3D855929E4335E00462D21 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		DD3D856229E4335E00462D21 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD3D855929E4335E00462D21 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		DD3D856429E4335E00462D21 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD3D855929E4335E00462D21 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		DD3D856729E43BAE00462D21 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD3D856629E43BAE00462D21 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		DD9BA7CA2A13F0AB0097A925 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD9BA7C92A13F0AB0097A925 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		DD9BA7CC2A13F0AB0097A925 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD9BA7C92A13F0AB0097A925 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DDCDFFCB29D0BA8C004AE32B /* Project object */;
+}

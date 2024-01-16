@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.841231511266-i4s5tlrasrsfjpidq5pih2ar8clmcs3i</string>
+			</array>
+		</dict>
+	</array>
+	<key>GIDClientID</key>
+	<string>841231511266-i4s5tlrasrsfjpidq5pih2ar8clmcs3i.apps.googleusercontent.com</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>mirza.ttf</string>
+	</array>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>FooterColor</string>
+		<key>UILaunchScreen</key>
+		<dict/>
+	</dict>
+</dict>
+</plist>
